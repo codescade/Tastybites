@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="images/tastybites.ico"
+      type="image/x-icon"
+    />
+    <title>Tastybites</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <img src="images/main_logo.png" class="main_logo" alt="" />
+        </li>
+
+        <li>
+          <div class="navbar_links_container">
+            <a href="#" class="navbar_link">Home</a>
+            <a href="#restaurants" class="navbar_link">Restaurants</a>
+            <a href="#cuisines" class="navbar_link">Cuisines</a>
+            <a href="#offers" class="navbar_link">Offers</a>
+            <a href="#contact" class="navbar_link">Contact</a>
+          </div>
+        </li>
+
+        <li>
+          <div id="navbar_cart_btns">
+            <img src="images/cart_icon.png" id="cart_icon" alt="Cart" />
+            <button class="custom_buttons navbar_buttons">Log In</button>
+            <button class="custom_buttons navbar_buttons">Sign Up</button>
+            <div id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="navbar_links_container-small_screen">
+      <a href="#" class="navbar_link">Home</a>
+      <a href="#" class="navbar_link">Restaurants</a>
+      <a href="#" class="navbar_link">Cuisines</a>
+      <a href="#" class="navbar_link">Offers</a>
+      <a href="#" class="navbar_link">Contact</a>
+      <div id="navbar_links_container-small_screen-btns">
+        <button class="custom_buttons navbar_buttons">Log In</button>
+        <button class="custom_buttons navbar_buttons">Sign Up</button>
+      </div>
+    </div>
+    <div class="navbar_line"></div>
+
+    <div id="header">
+      <div class="header_text">
+        <h1>We are ready to supply food for you anytime</h1>
+        <p id="header_text-para">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          explicabo voluptatem beatae deleniti ipsa necessitatibus laboriosam,
+          eligendi inventore?
+        </p>
+
+        <div class="header_text-inputs">
+          <div class="header_text-inputs_location">
+            <img src="images/target.png" alt="" />
+            <input type="text" placeholder="Your Location" />
+          </div>
+
+          <div class="header_text-inputs_search">
+            <input
+              type="text"
+              placeholder="Search for restaurants , cuisines and dishes"
+            />
+            <div class="header_text-inputs_search-icon_text">
+              <img src="images/search_icon_white.png" alt="" />
+              <p>Search</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header_images">
+        <div class="header_overlay_side-badge for_mobile">
+          <img src="images/scooter.png" alt="" />
+          <p>Fastest Delivery</p>
+        </div>
+        <div class="header_overlay_side-badge for_mobile">
+          <img src="images/quality_food_icon.jpg" alt="" />
+          <p>Quality Food</p>
+        </div>
+
+        <div class="header_overlay">
+          <div id="header_overlay-top">
+            <img
+              src="images/header_img1.jpg"
+              id="header_overlay-top_img1"
+              alt=""
+            />
+            <div id="header_overlay-top_right">
+              <img
+                src="images/address_icon.png"
+                id="header_overlay-top_right_img1"
+                class="for_large_display"
+                alt=""
+              />
+              <div class="header_overlay_side-badge for_large_display">
+                <img src="images/scooter.png" alt="" />
+                <p>Fastest Delivery</p>
+              </div>
+            </div>
+          </div>
+          <div id="header_overlay-bottom">
+            <div class="header_overlay_side-badge for_large_display">
+              <img src="images/quality_food_icon.jpg" alt="" />
+              <p>Quality Food</p>
+            </div>
+            <img
+              src="images/header_img2.jpg"
+              id="header_overlay-bottom-image"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div id="back_img">
+          <img src="images/Header_main_img.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div id="cuisines" class="our_cuisine">
+      <div class="our_cuisine_top">
+        <h2>Our Cuisines</h2>
+        <button class="custom_button_filled view_more">View more</button>
+      </div>
+      <div class="cuisine_main">
+        <div class="cuisine">
+          <img src="images/Cuisine_gujrati.jpg" alt="" />
+          <h3>Gujrati</h3>
+        </div>
+        <div class="cuisine">
+          <img src="images/Cuisine_punjabi.jpg" alt="" />
+          <h3>Punjabi</h3>
+        </div>
+        <div class="cuisine">
+          <img src="images/Cuisine_chinese.jpg" alt="" />
+          <h3>Chinese</h3>
+        </div>
+        <div class="cuisine">
+          <img src="images/Cuisine_fastfood.jpg" alt="" />
+          <h3>Fast Food</h3>
+        </div>
+        <div class="cuisine">
+          <img src="images/Cuisine_mexican.jpg" alt="" />
+          <h3>Mexican</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="why" class="why_choose_us">
+      <div class="div_top">
+        <h2>Why People Choose Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          soluta, voluptatem magnam commodi tempora voluptates doloremque ipsam
+          eveniet.
+        </p>
+      </div>
+      <div class="why_reasons">
+        <div class="why_reason">
+          <img src="images/restaurant-menu.png" alt="" />
+          <h4>10,000 Restaurants Menus</h4>
+          <p>We are working with many restaurants to put food in your plate.</p>
+        </div>
+        <div class="why_reason">
+          <img src="images/feedback.png" alt="" />
+          <h4>100% Positive Feedback</h4>
+          <p>
+            We care about our customers that is why we get 100% positive
+            feedback.
+          </p>
+        </div>
+        <div class="why_reason">
+          <img src="images/order-food.png" alt="" />
+          <h4>Easy online ordering</h4>
+          <p>
+            Once logged in you can easily navigate around the dite to complete
+            your order.
+          </p>
+        </div>
+        <div class="why_reason">
+          <img src="images/delivery-man.png" alt="" />
+          <h4>Fastest Guaranteed Delivery</h4>
+          <p>
+            We take responsibility to make sure that order is delivered safely.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="offers">
+      <img src="images/Offer_1.jpg" alt="" class="offer" />
+      <img src="images/Offer_2.jpg" alt="" class="offer" />
+    </div>
+
+    <div id="restaurants">
+      <div class="restaurants_top">
+        <h2>Top Restaurants</h2>
+        <button class="custom_button_filled view_more">View more</button>
+      </div>
+      <div id="restaurants_card_container">
+        <div class="restaurant_card">
+          <div class="rating">
+            <img src="images/rating_star_icon.png" class="rating_icon" alt="" />
+            <p>4.5</p>
+          </div>
+          <img src="images/restro1_img.jpg" alt="" class="restro_img" />
+          <h4 class="restro_name">Gwalia Foods & Sweets</h4>
+          <p class="restro_descp">Sweets,Nort Indian,Chat,Snacks..</p>
+          <p class="restro_city">Vasana Hadmatia</p>
+        </div>
+        <div class="restaurant_card">
+          <div class="rating">
+            <img src="images/rating_star_icon.png" class="rating_icon" alt="" />
+            <p>4.5</p>
+          </div>
+          <img src="images/restro2_img.jpg" alt="" class="restro_img" />
+          <h4 class="restro_name">Sweet truth - Cake & Desserts</h4>
+          <p class="restro_descp">Sweets,Desserts,Cake,Snacks..</p>
+          <p class="restro_city">Delhi</p>
+        </div>
+        <div class="restaurant_card">
+          <div class="rating">
+            <img src="images/rating_star_icon.png" class="rating_icon" alt="" />
+            <p>4.5</p>
+          </div>
+          <img src="images/restro3_img.jpg" alt="" class="restro_img" />
+          <h4 class="restro_name">Faoos - Wraps & Rolls</h4>
+          <p class="restro_descp">Kebabs,Fast Food ,Snacks...</p>
+          <p class="restro_city">Gandhinagar</p>
+        </div>
+        <div class="restaurant_card">
+          <div class="rating">
+            <img src="images/rating_star_icon.png" class="rating_icon" alt="" />
+            <p>4.5</p>
+          </div>
+          <img src="images/restro4_img.jpg" alt="" class="restro_img" />
+          <h4 class="restro_name">New Fiez Land</h4>
+          <p class="restro_descp">Cake ,American,Chinnese,Italian...</p>
+          <p class="restro_city">Mumbai</p>
+        </div>
+        <div class="restaurant_card">
+          <div class="rating">
+            <img src="images/rating_star_icon.png" class="rating_icon" alt="" />
+            <p>4.5</p>
+          </div>
+          <img src="images/restro5_img.jpg" alt="" class="restro_img" />
+          <h4 class="restro_name">The Great Indian Restaurant</h4>
+          <p class="restro_descp">Thalis,North Indian,South Indian...</p>
+          <p class="restro_city">Mumbai</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="how_to_order">
+      <div class="div_top">
+        <h2>How to Order?</h2>
+        <h4>Follow the steps</h4>
+      </div>
+      <div class="steps_container">
+        <div class="step">
+          <img src="images/step_1.png" class="step_img" alt="" />
+          <h2 class="step_title">Choose your location.</h2>
+        </div>
+        <div class="step">
+          <img src="images/step_2.png" class="step_img" alt="" />
+          <h2 class="step_title">Choose Restaurant</h2>
+        </div>
+        <div class="step">
+          <img src="images/step_3.png" class="step_img" alt="" />
+          <h2 class="step_title">Make your order.</h2>
+        </div>
+        <div class="step">
+          <img src="images/step_4.png" class="step_img" alt="" />
+          <h2 class="step_title">Food is on the way</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="best_dishes">
+      <div class="best_dishes_top">
+        <h2>Our Best Dishes</h2>
+        <button class="custom_button_filled view_more">View more</button>
+      </div>
+
+      <div class="best_dishes_container">
+        <div class="best_dishes_row">
+          <div class="best_dish">
+            <img src="images/best_dishes1.jpg" alt="" class="dish_img" />
+            <div class="rating">
+              <img
+                src="images/rating_star_icon.png"
+                class="rating_icon"
+                alt=""
+              />
+              <p>4.5</p>
+            </div>
+            <h4 class="dish_name">Palak Paneer with Paratha</h4>
+            <p class="dish_price">Rs.377.00</p>
+            <button class="custom_button_filled buy_now">Buy now</button>
+            <button class="custom_buttons add_cart">Add to Cart</button>
+          </div>
+
+          <div class="best_dish">
+            <img src="images/best_dishes2.jpg" alt="" class="dish_img" />
+            <div class="rating">
+              <img
+                src="images/rating_star_icon.png"
+                class="rating_icon"
+                alt=""
+              />
+              <p>4.5</p>
+            </div>
+            <h4 class="dish_name">Butter Paneer Delux Thali</h4>
+            <p class="dish_price">Rs.377.00</p>
+            <button class="custom_button_filled buy_now">Buy now</button>
+            <button class="custom_buttons add_cart">Add to Cart</button>
+          </div>
+
+          <div class="best_dish">
+            <img src="images/best_dishes3.jpg" alt="" class="dish_img" />
+            <div class="rating">
+              <img
+                src="images/rating_star_icon.png"
+                class="rating_icon"
+                alt=""
+              />
+              <p>4.5</p>
+            </div>
+            <h4 class="dish_name">Masala Paneer Tikka Wrap</h4>
+            <p class="dish_price">Rs.377.00</p>
+            <button class="custom_button_filled buy_now">Buy now</button>
+            <button class="custom_buttons add_cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="best_dishes_row">
+          <div class="best_dish">
+            <img src="images/best_dishes4.jpg" alt="" class="dish_img" />
+            <div class="rating">
+              <img
+                src="images/rating_star_icon.png"
+                class="rating_icon"
+                alt=""
+              />
+              <p>4.5</p>
+            </div>
+            <h4 class="dish_name">Double Value Non-Veg Wrap</h4>
+            <p class="dish_price">Rs.377.00</p>
+            <button class="custom_button_filled buy_now">Buy now</button>
+            <button class="custom_buttons add_cart">Add to Cart</button>
+          </div>
+
+          <div class="best_dish">
+            <img src="images/best_dishes5.jpg" alt="" class="dish_img" />
+            <div class="rating">
+              <img
+                src="images/rating_star_icon.png"
+                class="rating_icon"
+                alt=""
+              />
+              <p>4.5</p>
+            </div>
+            <h4 class="dish_name">Veg Club Sandwich</h4>
+            <p class="dish_price">Rs.377.00</p>
+            <button class="custom_button_filled buy_now">Buy now</button>
+            <button class="custom_buttons add_cart">Add to Cart</button>
+          </div>
+
+          <div class="best_dish">
+            <img src="images/best_dishes6.jpg" alt="" class="dish_img" />
+            <div class="rating">
+              <img
+                src="images/rating_star_icon.png"
+                class="rating_icon"
+                alt=""
+              />
+              <p>4.5</p>
+            </div>
+            <h4 class="dish_name">Cheese Jam Sandwich</h4>
+            <p class="dish_price">Rs.377.00</p>
+            <button class="custom_button_filled buy_now">Buy now</button>
+            <button class="custom_buttons add_cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="testimonials">
+      <div class="testimonials_top">
+        <h2>Customers About Us</h2>
+        <h4>Testimonials</h4>
+      </div>
+
+      <div class="testimonial_slider">
+        <img
+          src="images/arrow_img.webp"
+          alt=""
+          class="arrow_img arrow_left"
+          onclick="slidePrevious(`testimonial_container`,`testimonial`)"
+        />
+
+        <div id="testimonial_container">
+          <div class="testimonial display-none">
+            <img
+              src="images/testimonial_1_img.jpg"
+              alt=""
+              class="testimonial_img"
+            />
+            <div class="testimonial_text">
+              <h3>Sachin Tendulkar</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+                dignissimos a vero vel consequatur quibusdam assumenda ipsam
+                doloribus.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <img
+              src="images/testimonial_2_img.jpg"
+              alt=""
+              class="testimonial_img"
+            />
+            <div class="testimonial_text">
+              <h3>AB D</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+                dignissimos a vero vel consequatur quibusdam assumenda ipsam
+                doloribus.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial display-none">
+            <img
+              src="images/testimonial_3_img.jpg"
+              alt=""
+              class="testimonial_img"
+            />
+            <div class="testimonial_text">
+              <h3>Chris Gayle</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+                dignissimos a vero vel consequatur quibusdam assumenda ipsam
+                doloribus.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial display-none">
+            <img
+              src="images/testimonial_4_img.png"
+              alt=""
+              class="testimonial_img"
+            />
+            <div class="testimonial_text">
+              <h3>David Warner</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+                dignissimos a vero vel consequatur quibusdam assumenda ipsam
+                doloribus.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src="images/arrow_img.webp"
+          alt=""
+          class="arrow_img"
+          onclick="slideNext(`testimonial_container`,`testimonial`)"
+        />
+      </div>
+    </div>
+
+    <div id="contact">
+      <img src="images/wave.svg" id="wave" alt="" />
+
+      <div id="get_quote">
+        <div class="get_quote_text">
+          <h3>Get a Quote for Food World</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ullam
+            atque quam rerum dignissimos soluta debitis assumenda delectus!
+          </p>
+        </div>
+        <div class="header_text-inputs_search" id="quote_search">
+          <input type="text" placeholder="Enter your Email address" />
+          <div class="header_text-inputs_search-icon_text">
+            <img src="images/search_icon_white.png" alt="" />
+            <p>Subscribe</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="main_footer">
+        <div class="main_footer_handles">
+          <img src="images/logo_dark.jpg" class="logo_img" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            consectetur quod enim, nulla odit aut expedita maxime accusantium.
+          </p>
+
+          <div class="social_icons">
+            <img src="images/insta_icon.png" alt="" class="social_icon" />
+            <img src="images/fb_icon.png" alt="" class="social_icon" />
+            <img src="images/linkedin_icon.png" alt="" class="social_icon" />
+            <img src="images/twitter_icon.png" alt="" class="social_icon" />
+          </div>
+        </div>
+
+        <div class="footer_info_contact">
+          <div class="main_footer_info">
+            <h3>Information</h3>
+
+            <a href="#" class="navbar_link">Home</a>
+            <a href="#restaurants" class="navbar_link">Restaurants</a>
+            <a href="#cuisines" class="navbar_link">Cuisines</a>
+            <a href="#offers" class="navbar_link">Offers</a>
+            <a href="#contact" class="navbar_link">Contact</a>
+          </div>
+
+          <div class="main_footer_contacts">
+            <h3>Get in touch</h3>
+
+            <div class="main_footer_contact">
+              <img src="images/address_icon.png" alt="" />
+              <p>5807 W 63rd St.Chicago,United States</p>
+            </div>
+            <div class="main_footer_contact">
+              <img src="images/call_icon.png" alt="" />
+              <p>+(1) 234 567 890</p>
+            </div>
+            <div class="main_footer_contact">
+              <img src="images/message_icon.png" alt="" />
+              <p>info@tastybites.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
